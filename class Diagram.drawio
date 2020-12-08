@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T12:18:32.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="d82Z_dBuk66obrh4d92j" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T12:46:39.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="FvqX2zLYGgzZu_p8r6ce" version="13.11.0" type="github">
   <diagram id="Gv6I4m2x9ljRe2QmFQhr" name="Page-1">
-    <mxGraphModel dx="1108" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="950" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -306,14 +306,14 @@
         <mxCell id="TjWATpUQmkrNQiMJNV-2-149" value="&lt;span style=&quot;font-weight: 700&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px ; font-weight: 700&quot;&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;Input&lt;/span&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="1430" y="339" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TjWATpUQmkrNQiMJNV-2-152" value="&lt;&lt;interface&gt;&gt;&#xa;CommandOutput" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="940" y="481" width="160" height="190" as="geometry" />
+        <mxCell id="TjWATpUQmkrNQiMJNV-2-152" value="&lt;&lt;interface&gt;&gt;&#xa;PurchaseTicketOutput" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="481" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="TjWATpUQmkrNQiMJNV-2-153" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="TjWATpUQmkrNQiMJNV-2-152">
           <mxGeometry y="40" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="TjWATpUQmkrNQiMJNV-2-154" value="+ setSuccess(String):&#xa;        CommandOutput&#xa;+ setMessage(String):&#xa;        CommandOutput&#xa;+ setId(String):&#xa;        CommandOutput&#xa;+ getSuccess(): Bool&#xa;+ getMessage(): String&#xa;+ getId(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TjWATpUQmkrNQiMJNV-2-152">
-          <mxGeometry y="48" width="160" height="142" as="geometry" />
+        <mxCell id="TjWATpUQmkrNQiMJNV-2-154" value="+ setSuccess(String):&#xa;        CommandOutput&#xa;+ setMessage(String):&#xa;        CommandOutput&#xa;+ setOrder(Order)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TjWATpUQmkrNQiMJNV-2-152">
+          <mxGeometry y="48" width="160" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
